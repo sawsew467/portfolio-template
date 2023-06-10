@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+
+body {
+  background-color: #171717;
+}
+
+a {
+  text-decoration: none;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav__list {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+.header__logo {
+  color: white;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.nav__item a {
+  color: white;
+  font-size: 18px;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-top: 100px;
+}
+
+.banner__left {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner__heading {
+  color: white;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.banner__job {
+  margin: 20px 0;
+  color: #828282;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.button {
+  color: white;
+  padding: 12px 24px;
+}
+
+.button--primary {
+  background-color: #27ae60;
+  border: none;
+}
+
+.button--secondary {
+  margin-left: 20px;
+  background-color: black;
+  border: 1px solid #f2f2f2;
+}
+
+.banner__right {
+  width: 650px;
+  height: 650px;
+  border-radius: 50%;
+  border: 1px solid rgba(129, 120, 120, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner__img {
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section {
+  margin-top: 100px;
+  padding: 0 80px;
+}
+
+.section__heading {
+  font-size: 48px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.about__desc {
+  width: 745px;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.about__list {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+}
+
+.about__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about__item div {
+  box-sizing: content-box;
+  width: 12px;
+  height: 12px;
+  background-color: #27ae60;
+  border-radius: 50%;
+  border: 25px solid #212121;
+}
+
+.about__item span {
+  margin-top: 16px;
+  margin-bottom: 3px;
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+}
+
+.about__item p {
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+}
+
+.feature__list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+
+.feature__item {
+  width: 360px;
+  background-color: #212121;
+  padding: 40px 60px;
+}
+
+.feature__item p {
+  font-size: 36px;
+  font-weight: 500;
+  color: #535353;
+  margin-top: 30px;
+}
+
+.feature__item--hightlight {
+  border-bottom: 8px solid #27ae60;
+}
+
+.skill__list {
+  list-style: none;
+  display: flex;
+  background-color: #212121;
+  padding: 40px 0;
+}
+
+.skill__item {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skill__item span {
+  font-weight: 700;
+  font-size: 72px;
+  color: #4f4f4f;
+}
+
+.skill__item p {
+  font-weight: 700;
+  font-size: 24px;
+  color: #27ae60;
+  text-transform: uppercase;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact__input {
+  background-color: #171717;
+  border: none;
+  border-bottom: 1px solid #4f4f4f;
+  font-weight: 700;
+  font-size: 14px;
+  width: 358px;
+  padding-bottom: 8px;
+  outline: none;
+  color: #fff;
+}
+
+.contact__list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 36px;
+  row-gap: 48px;
+  width: 752px;
+}
+
+.contact__textarea {
+  width: 752px;
+  padding: 12px;
+  margin-top: 48px;
+  margin-bottom: 32px;
+  background-color: #171717;
+  font-weight: 700;
+  font-size: 14px;
+  outline: none;
+  color: #fff;
+  border: 1px solid #4f4f4f;
+}
+
+footer {
+  margin-top: 100px;
+  padding-bottom: 28px;
+}
+
+footer p {
+  font-weight: 500;
+  font-size: 14px;
+  color: #4f4f4f;
+  text-align: center;
+}
